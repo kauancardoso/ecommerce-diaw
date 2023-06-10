@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/0b47f1f6e4.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/produtos.css">
+    <title>Site Diaw</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+        <nav class="navbar fixed-top bg-body-tertiary navbar-expand-md">
+          <div class="container">
+            <a class="navbar-brand" href="./index.html"
+              ><img
+                style="margin: auto; width: 60px"
+                class="img-fluid"
+                src="./imagem/reshot-icon-game-developing-PCVHJ25UXK.svg"
+                alt=""
+            /></a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse text-center"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-1">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    ><strong> Home</strong></a
+                  >
+                </li>
+                <li class="nav-item dropdown text-center">
+                  <a
+                    class="nav-link active dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <strong> Assinaturas</strong>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><img
+                          class="img-fluid"
+                          style="width: 25px"
+                          src="./imagem/game boy mensal.svg"
+                        />Mensal</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img
+                          class="img-fluid"
+                          style="width: 25px"
+                          src="./imagem/game boy anual.svg"
+                        />Anual</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img
+                          class="img-fluid"
+                          style="width: 15px"
+                          src="./imagem/reshot-icon-option-MRZY3W9F46.svg"
+                          alt=""
+                        />
+                        Outras Opçoes</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <form class="d-flex" role="search">
+                <input
+                  id="search-input"
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Pesquisar"
+                  aria-label="Search"
+                />
+                <button class="btn btn-warning" id="search-button" type="text">Pesquisar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- SLIDES -->
+      <div id="slide" style="margin-top: 100px" class="container">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="row">
+              <div class="carousel-item active">
+                <img src="./imagem/img4k.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-3">Bem-vindos a Inovação</h5>
+                  <p class="h5">Melhor loja de Games</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagem/img2k.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-3">Melhores jogos</h5>
+                  <p class="h5">Melhores jogos para sua diversão</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagem/img1k.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-3">Melhor Perifericos</h5>
+                  <p class="h5">Todas as marcas</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- SLIDES -->
+    </header>
+    <main class="my-3">
+      <div id="section-information" class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="text-center">Kauan Cardoso, Ciencia da computação - 804096</h3>
+            <h5 class="text-center fw-bolder">Sobre nós</h5>
+            <h3 class="text-center">Maior empresa de games</h3>
+            <div class="d-flex justify-content-center">
+              <p style="width: 800px" class="text-center lh-sm fw-bold">
+                Fundado em 2023, o Diaw foi um dos pioneiros no comércio
+                eletrônico brasileiro e hoje é o maior e-commerce de Tecnologia
+                e Games na América Latina. Desde sua criação, a empresa é
+                formada por histórias e conquistas de um time obcecado por
+                agilidade, qualidade de atendimento, velocidade de entrega e
+                respeito pelo consumidor.
+              </p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="button" class="fw-bolder btn btn-warning rounded-2">
+                Leia Mais
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      
+      <div class="container">
+        <div class="row" id="produtos">
+          <!-- // onde os elementos da api ficam -->
+        </div>
+      </div>
+
+
+
+
+
+
+      <div style="margin-top: 100px; margin-bottom: 100px" class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <section>
+              <h5 class="mb-4 my-3 fw-bold text-center">
+                Mande sua mensagem para nós
+              </h5>
+              <p class="text-center lh-sm fw-medium">Nós ajude a melhorar</p>
+              <div class="d-flex justify-content-center">
+                <form id="email" class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Email"
+                    aria-label="Search"
+                  />
+                  <button
+                    class="btn btn-large btn-warning fw-bolder"
+                    type="submit"
+                  >
+                    Enviar
+                  </button>
+                </form>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-center text-lg-start bg-white text-muted">
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <div class="me-5 d-none d-lg-block">
+          <span>Também temos redes socias:</span>
+        </div>
+        <div>
+          <a href="./index.html" class="me-4 link-secondary">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="./index.html" class="me-4 link-secondary">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="./index.html" class="me-4 link-secondary">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="./index.html" class="me-4 link-secondary">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="./index.html" class="me-4 link-secondary">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="./index.html" class="me-4 link-secondary">
+            <i class="fa-brands fa-github-square"></i>
+          </a>
+        </div>
+      </section>
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>Diaw
+              </h6>
+              <p>Somos a maior empresa de jogos eletronicos do Brasil.</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Produtos</h6>
+              <p>
+                <a href="#!" class="text-reset">Computador</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Consoles</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Perefericos</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Jogos</a>
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Links Úteis</h6>
+              <p>
+                <a href="#!" class="text-reset">Preços</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Configuraçoes</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Diretrizes</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Ajuda</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+              <p>
+                <i class="fas fa-home me-3 text-secondary"></i> Belo Horizonte,
+                MG, BR
+              </p>
+              <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                Puc@minas.com
+              </p>
+              <p><i class="fas fa-phone me-3 text-secondary"></i> 4002-8922</p>
+              <p><i class="fas fa-print me-3 text-secondary"></i> 4002-8922</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.025)"
+      >
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="#">diaw.com</a>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+    <script src="./detalhes.js"></script>
+  </body>
+</html>
